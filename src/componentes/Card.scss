@@ -1,0 +1,37 @@
+ .container-tarjetas{
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+.img-card{
+    width: 300px;
+    height: 320px;
+    margin: 0 0 16px;
+    object-fit: contain;    
+}
+
+.title-type-card{
+    position: absolute;
+    width: 191px;
+    height: 145px;
+    margin: 220px 38px 0 0;
+    background-color: #fff;
+    border-bottom: 2px solid #cacaca;
+}
+
+.card{
+  border: solid 1px #cacaca;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 40px;
+  height: 370px;
+}
+
+.icono{
+    color:#cacaca;
+    font-size: 20px;
+}
+
+.container-price{
+    text-align: right;
+}
